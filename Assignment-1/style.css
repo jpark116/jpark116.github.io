@@ -1,0 +1,20 @@
+/* Formatting the entire page removing margin and padding also setting box-sizing to border-box */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Spacing out the main elements of the body of the page header, main and footer */
+/* Adding an image to the background of the page */
+/* Styling image so it covers the whole area of the page. */
+body{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: .1fr 1fr .1fr; 
+
+    background-image: url(whiskey.jpg);
+    background-size: cover;
+    background-position: center;
+}
