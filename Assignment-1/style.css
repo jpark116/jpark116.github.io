@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: .1fr 1fr .1fr; 
+    grid-template-rows: 260px 100px 2fr 200px; 
 
     background-image: url(whiskey.jpg);
     background-size: cover;
@@ -27,7 +27,7 @@ body{
 header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 150px 100px;
     justify-items: center;
    
 }
@@ -37,9 +37,10 @@ header{
 header h1 { 
     /* Layout */
     grid-column: 2/3; 
+    grid-row: 1/1;
     white-space: nowrap;
-    padding: 20px;
-    height: 50%;
+    padding: 10px;
+    height: 55%;
     
     /* Fonts */
     font-size: 4em;
@@ -61,9 +62,9 @@ header h1 {
 /* Add background and border styling */
 header h3{
 
-    grid-row: 2/3;
+    grid-row: 2/2;
     grid-column: 2/3;
-    height: 35%;
+    height: 60%;
     padding: 10px;
     
     /* Font */
@@ -78,4 +79,77 @@ header h3{
     border-style: solid;
     border-width: 3px;
     border-color:beige;
+}
+
+/* --Page Main Section -- */
+/* Spacing for lyrics using grid. */
+/* Formatting text. */
+main{ 
+    /* Layout divs */
+    display:grid;
+    grid-template-rows: 170px 107px 180px 170px 110px 170px 130px 110px 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+    width:50%;
+    height: 100%;
+    padding: 40px;
+    margin:20px;
+    
+
+    /* Background */
+    background-color: rgba(59, 40, 20, 0.771);
+
+    /* Border */
+    border: 3px solid grey;
+    
+}
+
+/* Formatting lyrics using grid. */
+main div {
+    /* Layout p, h4*/
+    display:grid;
+    grid-template-rows: 10px 1fr;
+    grid-column: 2/3;
+    
+}
+
+/* Add color and font to text. */
+/* Create new lines for lyric text*/
+main div p {
+    white-space: pre-line;
+    text-align: left;
+    font-size: 1.1rem;
+    font-family: funnel sans;
+    color: white;
+}
+
+/* aligning title lyric headers. such as verses and choruses. */
+/* Add text color and font. */
+main div h4 {
+    /* Layout */
+    text-align: left;
+    font-size: 1.2em;
+    font-family: funnel sans;
+    color:antiquewhite;
+    
+}
+
+/* Paragraph section background color, border and spacing.  */
+/* Add font color and size. */
+
+section p{
+    /* Layout */
+    width:50%;
+    align-self: center;    
+    justify-self: center;
+
+    /* Font */
+    color:white;
+    font-size: 1.2rem;
+    font-family: funnel sans;
+    
+    /* Background */
+    background-color: rgba(59, 40, 20, 0.771);
+    border: 3px solid grey;
+    padding: 20px;
 }
