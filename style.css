@@ -46,7 +46,7 @@ header h1 {
     /* Fonts */
     font-size: 4em;
     font-weight: bold;
-    font-family: special elite;
+    font-family: "special elite";
     color: beige;
 
     /* Background */
@@ -70,7 +70,7 @@ header h3{
     
     /* Font */
     font-size: 2.5em;
-    font-family: special elite;
+    font-family: "special elite";
     color: beige;
 
     /* Background */
@@ -122,7 +122,7 @@ main div p {
     white-space: pre-line;
     text-align: left;
     font-size: 1.1rem;
-    font-family: funnel sans;
+    font-family: "funnel sans";
     color: white;
     
     
@@ -134,7 +134,7 @@ main div h4 {
     /* Layout */
     text-align: left;
     font-size: 1.2em;
-    font-family: funnel sans;
+    font-family: "funnel sans";
     color:antiquewhite;
     
 }
@@ -151,7 +151,7 @@ section p{
     /* Font */
     color:white;
     font-size: 1.2rem;
-    font-family: funnel sans;
+    font-family: "funnel sans";
     
     /* Background */
     background-color: rgba(59, 40, 20, 0.771);
